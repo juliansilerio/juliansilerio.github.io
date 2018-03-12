@@ -1,0 +1,9 @@
+.header {
+    background-color: #999999;
+    color: white;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
