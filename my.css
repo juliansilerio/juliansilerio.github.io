@@ -1,9 +1,43 @@
-.header {
-    background-color: #999999;
-    color: white;
+body {
+    background-color:black;
 }
 
 .no-padding {
-  padding-left: 0;
-  padding-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.padded {
+    padding: 20px;
+}
+
+.jumbotron {
+    /* parallax stuff below */
+    background-image: url("img/background_img.jpg");
+    background-size: cover;
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: 50% 1%;
+
+    margin-bottom: 0;
+    padding: 200px;
+
+}
+
+.img-fill {
+    width: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-stroke-black {
+    -webkit-text-stroke: 2px black;
+}
+
+.bg-maroon {
+    background-color: #581821;
 }
