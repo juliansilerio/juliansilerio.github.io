@@ -2,6 +2,35 @@ body {
     background-color:black;
 }
 
+#nav_bar {
+	border: 0;
+	background-color: black;
+	border-radius: 0px;
+	margin-bottom: 0;
+    height: 30px;
+}
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+.nav_links {
+    margin: 0;
+}
+
+.nav_links li {
+	display: inline-block;
+    margin-top: 4px;
+}
+.nav_links li a {
+	padding: 0 15.5px;
+	color: white;
+	text-decoration: none;
+}
+
 .no-padding {
     padding-left: 0;
     padding-right: 0;
@@ -15,7 +44,7 @@ body {
     /* parallax stuff below */
     background-image: url("img/background2.jpg");
     background-size: cover;
-    min-height: 850px;
+    min-height: 1000px;
     background-attachment: fixed;
     background-position: 50% 1%;
 
