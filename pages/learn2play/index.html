@@ -1,0 +1,110 @@
+<!--
+Julian Silerio
+jjs2245
+COMS 4170 UI Design
+Prof. Chilton
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="my.css">
+
+    <title>Learn2Play</title>
+</head>
+<body>
+    <div class="container" id="top_div" style="display:none">
+        <br>
+        <form id="input_bar">
+            <div class="form-group">
+                <label for="url">Video url:</label>
+                <input id="url" type="text" class="form-control" placeholder="YouTube link here">
+            </div>
+        </form>
+        <div class="btn-toolbar" role="toolbar">
+            <div class="btn-group" role="group">
+                <input id="url_submit" type="button" class="btn btn-info" onclick="loadVideo()" value="Add video">
+            </div>
+            <div id="controls" class="btn-group" role="group" style="display:none">
+                <input id="toggle_form" type="button" class="btn btn-secondary" onclick="toggleForm()" value="Toggle URL">
+                <input id="toggle_loop" type="button" class="btn btn-success" onclick="toggleLoop()" value="Looping ON">
+                <input id="toggle_autoplay" type="button" class="btn btn-light" onclick="toggleAutoplay()" value="playNext OFF">
+                <input id="reset" type="button" class="btn btn-danger" data-toggle="modal" data-target="#confirmation_modal" value="Reset videos">
+            </div>
+        </div>
+    </div>
+
+    <br/>
+
+    <div id="videos" class="container-fluid" align="center">
+        <!--div id="video" class="row">
+        </div-->
+        <div id="instructions" class="container" align="left">
+            <h2>Learn2Play</h2>
+            <p class="newline">To make learning songs on YouTube that much easier.
+Simple YouTube video looper with clipping capability.</p>
+            <h3>Instructions</h3>
+            <ol>
+                <li>
+                    Load URL.
+                </li>
+                <li>
+                    Find where you want to loop the video.
+                </li>
+                <li>
+                    Split!
+                </li>
+            </ol>
+            <p class="newline">Don't panic if the videos reload when splitting, the timestamps
+are saved!</p>
+            <h4>Accepted link formats</h4>
+            <ul>
+                <li>
+                    <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
+                        https://www.youtube.com/watch?v=dQw4w9WgXcQ
+                    </a>
+                </li>
+                <li>https://youtu.be/dQw4w9WgXcQ</li>
+                <li>https://www.youtube.com/embed/dQw4w9WgXcQ</li>
+                <li>http://www.youtube.com/v/dQw4w9WgXcQ</li>
+            </ul>
+        </div>
+    </div>
+
+    <p id="error"></p>
+
+    <div class="modal fade" id="confirmation_modal" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Reset videos</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Do you really want to reset and remove all the videos?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger" onClick="reset()" data-dismiss="modal">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then my.js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="my.js"></script>
+</body>
+</html>

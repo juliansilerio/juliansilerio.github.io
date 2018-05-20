@@ -1,0 +1,27 @@
+/**
+Julian Silerio
+jjs2245
+COMS 4170 UI Design
+Prof. Chilton
+**/
+
+#videos {
+    width:auto;
+    height:460px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    background-color:  #cccccc
+}
+
+#videos div {
+    height: 480px;
+    width: 480px;
+    display: inline-block;
+    background-color:  #f2f2f2;
+    white-space: nowrap;
+}
+
+p.newline {
+    white-space: pre;
+}

@@ -1,0 +1,86 @@
+div[class="row"] {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#chat {
+  margin:10px;
+}
+
+.red-text {
+  color:#cc0000;
+}
+
+.gray-text {
+  color:#595959;
+}
+
+.black-text {
+  color: black;
+}
+
+.green-text {
+  color:#009933;
+}
+
+.orange-text{
+  color:orange;
+}
+
+.gray-background {
+  background-color:#f2f2f2;
+}
+
+.scrollable {
+  margin-top:10px;
+  height: 850px;
+  overflow: auto;
+}
+.inlined {
+  display:inline-block;
+  margin-right:5px;
+}
+
+.btn-wide {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.btn-lil-wide {
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.col-btn {
+  width:2.5%;
+}
+
+.col-sender {
+  width:30%;
+}
+
+.col-message {
+  width:52.5%;
+}
+
+.col-time {
+  width:7.5%;
+}
+
+.inactive {
+  border-top: 1px solid  #e6e6e6;
+  border-right: 1px solid  #e6e6e6;
+}
+
+.borderless {
+  border:none;
+}
+
+.table-borderless {
+    border-bottom:0px;
+}
+
+.table-borderless th, .table-borderless td {
+    border: 1px !important;
+}

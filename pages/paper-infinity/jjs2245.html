@@ -1,0 +1,98 @@
+<!--
+Julian Silerio
+jjs2245
+UI Homework 4
+3/7/2018
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Columbia Paper Infinity</title>
+    <!-- jquery -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!--my stuff woo-->
+    <link rel="stylesheet" type="text/css" href="jjs2245.css">
+    <script type="text/javascript" src="jjs2245.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Columbia Paper Infinity</h1>
+        <!--define nav bar with tabs-->
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#log_sale">Log Sale</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#ppc">Party Planning Committee</a></li>
+        </ul>
+
+        <!--actual tab content in code below-->
+        <div class="tab-content">
+            <!--home tab-->
+            <div id="home" class="tab-pane show active" role="tabpanel">
+                </br>
+                <h3>Home</h3>
+                <p>Columbia Paper! The biggest in New York. Remember to log your sales on the website!</p>
+            </div>
+
+            <!--log sale tab-->
+            <div id="log_sale" class="tab-pane"role="tabpanel">
+                </br>
+                <h3>Log sales</h3>
+                <p>Don't forget to log your sales below.</p>
+                <div class="ui-widget">
+                    <!--initiate table here, load thru JS-->
+                    <table id="sales_table" class="table">
+                        <tr>
+                            <!--input fields-->
+                            <td>
+                                <input id="clients" placeholder="Client">
+                            </td>
+                            <td>
+                                <input id="reams" type="number" min="1" placeholder="# Reams">
+                            </td>
+                            <td>
+                                <input id="sales_submit" type="button" class="btn btn-default" onclick="addNewSale(this)" value="Submit">
+                            </td>
+                        </tr>
+                        <!--header-->
+                        <thead>
+                            <tr>
+                                <th>Client</th>
+                                <th>Reams</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table><!--sales table-->
+                </div><!--ui widget-->
+            </div><!--tab pane-->
+
+            <!--party planning committee tab"-->
+            <div id="ppc" class="tab-pane" role="tabpanel">
+                </br>
+                <h3>Party Planning Committee</h3>
+                <p>Find the members of the Party Planning Committee below.</p>
+                <div class="container">
+                    <div class="row">
+                        <div id="members" class="col droppable">
+                            <h4>Members</h4>
+                        </div>
+                        <div id="non-members" class="col droppable">
+                            <h4>Non-members</h4>
+                        </div>
+                    </div>
+                </div><!--container-->
+            </div><!--tab pane-->
+        </div><!--tab content-->
+    </div><!--total container-->
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+/*
+Julian Silerio
+jjs2245
+UI Homework 4
+3/7/2018
+*/
+
+.bg-grey {
+    background-color:  #f2f2f2;
+}
+
+.bg-offwhite {
+    background-color: #f9f9f9;
+}
+
+.cell-yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.boxed {
+    border: 1px solid #eee;
+    width: 142px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+    z-index: 998;
+}
+
+.top-layer {
+    z-index:999;
+}

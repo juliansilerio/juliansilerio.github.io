@@ -1,0 +1,23 @@
+.img-two {
+  width: auto;
+  max-height: 300px;
+}
+
+.img-three {
+  width: auto;
+  max-height: 275px;
+}
+
+.img-four {
+  width: auto;
+  max-height: 200px;
+}
+
+.full-thumb {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thumbnail {
+  height: 100%;
+}
