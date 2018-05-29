@@ -65,7 +65,14 @@ body {
 
     margin-bottom: 0;
     padding: 200px;
+}
 
+.card-size{
+    width: 200px;
+}
+
+.img-small {
+    width: 200px;
 }
 
 a {

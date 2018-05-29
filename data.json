@@ -1,0 +1,33 @@
+var skills = [
+    {
+        "title" : "Python",
+        "subtitle" : "My primary (and favorite) programming language.",
+        "text" : "Learned through academic work and side projects. Relevant technologies include Flask, scikit-learn, numpy, keras with tensorflow, pytorch, pickle, io"
+    },
+    {
+        "title" : "php",
+        "subtitle" : "$txt = 'I love php!';",
+        "text" : "Learned through professional work. Relevant technologies include Symfony, Doctrine, phpMyAdmin, Codeception, twig"
+    },
+    {
+        "title" : "Java",
+        "subtitle" : "String str = 'Hello, Java!';",
+        "text" : "Learned through academic work. Also my first programming language"
+    },
+    {
+        "title" : "Web development",
+        "subtitle" : "",
+        "text" : "Learned through academic and professional work. Relevant technologies include HTML, CSS, Javascript, jQuery,Bootstrap."
+    },
+];
+
+
+var work = [
+    {
+        "company" : "Columbia College Information Technology<br/>New York City, New York",
+        "role" : "Software engineering intern",
+        "duration" : "June 2017 -<br>May 2018",
+        "notes": "Coding and stuff"
+    },
+
+];

@@ -16,6 +16,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="data.json"></script>
     <script src="my.js"></script>
 
     <title>Julian Silerio</title>
@@ -55,53 +56,37 @@
                     well as finishing my German minor. </p>
                 <p class="text-justify font-large">Throughout my studies I found myself especially interested in machine learning and artificial intelligence, although I will be graduating in the applications track. I plan to start my professional career soon after graduation, but I hope to return to school one day and pursue my interests further in machine learning and data science.</p>
             </div>
-            <img id="pro_pic" src="img/home2.jpg"></img>
+            <img id="pro_pic" src="img/home2.jpg">
+        </div>
 
+        <div id="skills" class="container">
             <h2 class="header">SKILLS</h2>
-            <table class="table table-sm">
+            <div id="skill-cards" class="card-columns">
+            <!--load data in-->
+            </div>
+        </div>
+
+        <div id="work" class="container">
+            <h2>WORK EXPERIENCE</h2>
+            <table class="table">
                 <thead>
                     <tr>
-                        <th>Skill</th>
-                        <th>Relevant technologies</th>
+                        <th>Company</th>
+                        <th>Role</th>
+                        <th>Duration</th>
+                        <th> Description</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>Python</td>
-                        <td>Flask, scikit-learn, numpy, keras with tensorflow, pytorch, pickle, io</td>
-                    </tr>
-                    <tr>
-                        <td>PHP</td>
-                        <td>Symfony, Doctrine</td>
-                    </tr>
-                    <tr>
-                        <td>Java</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Web Development</td>
-                        <td>HTML, CSS, Javascript, jQuery, Bootstrap</td>
-                    </tr>
-                    <tr>
-                        <td>SQL</td>
-                        <td>PostgreSQL, mySQL</td>
-                    </tr>
-                    <tr>
-                        <td>git</td>
-                        <td>Github, BitBucket</td>
-                    </tr>
-                    <tr>
-                        <td>Other languages</td>
-                        <td>C, C++, OCaml</td>
-                    </tr>
+                <tbody id='table-body'>
+
                 </tbody>
             </table>
         </div>
 
-        <div class="container">
+        <div id="projects" class="container">
             <h2 class="header">PROJECTS</h2>
             <div class="card-deck">
-                <div class="card text-white bg-transparent border-light ">
+                <div class="card text-white bg-transparent border-light">
                     <img class="card-img-top" src="..." alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title"><a href="pages/learn2play/index.html">Learn2Play</a></h5>
