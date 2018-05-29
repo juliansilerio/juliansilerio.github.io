@@ -68,6 +68,15 @@ body {
 
 }
 
+a {
+    color: white;
+}
+
+a:hover{
+    font-weight: bold;
+    color: white;
+}
+
 .text-black {
     color: black;
 }
