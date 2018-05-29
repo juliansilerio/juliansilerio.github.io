@@ -1,5 +1,5 @@
 body {
-    background-color:black;
+    background-color: #0e1111;
     color:white;
 }
 
@@ -12,24 +12,25 @@ body {
 }
 
 #bio {
-    margin-bottom: 400px;
+    margin-bottom: 50px;
 }
 
 #bio_text {
     width: 600px;
     float: left;
     position: relative;
+    padding-left: 0;
 }
 
 
 #pro_pic {
-    width: 400px;
+    width: 450px;
     float: left;
     display: inline-block;
 }
 
 
-.header {
+.heasder {
     padding-left: 15px;
 }
 
@@ -67,11 +68,14 @@ body {
 
 }
 
+.text-black {
+    color: black;
+}
+
+.bg-dark {
+    background-color: #2e2e2e;
+}
 
 .text-stroke-black {
     -webkit-text-stroke: 2px black;
-}
-
-.font-large {
-    font-size: 110%;
 }

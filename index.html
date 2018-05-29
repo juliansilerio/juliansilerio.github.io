@@ -41,13 +41,13 @@
     </nav-->
 
     <!-- me summary-->
-    <div class="container">
+    <div id="main" class="container">
         <br/>
 
 
         <div id="bio" class="container">
-            <h3 class="header">ABOUT ME</h3>
-            <div id="bio_text" class="container">
+            <h2 class="header">ABOUT ME</h2>
+            <div id="bio_text" class="container-fluid">
                 <p class="text-justify font-large">I'm currently a senior
                     undergrad at the School of Engineering and Applied
                     Sciences at Columbia University, where I will be
@@ -55,17 +55,76 @@
                     well as finishing my German minor. </p>
                 <p class="text-justify font-large">Throughout my studies I found myself especially interested in machine learning and artificial intelligence, although I will be graduating in the applications track. I plan to start my professional career soon after graduation, but I hope to return to school one day and pursue my interests further in machine learning and data science.</p>
             </div>
-            <img id="pro_pic" src="img/home2.jpg">
+            <img id="pro_pic" src="img/home2.jpg"></img>
+
+            <h2 class="header">SKILLS</h2>
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Relevant technologies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Python</td>
+                        <td>Flask, scikit-learn, numpy, keras with tensorflow, pytorch, pickle, io</td>
+                    </tr>
+                    <tr>
+                        <td>PHP</td>
+                        <td>Symfony, Doctrine</td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>HTML, CSS, Javascript, jQuery, Bootstrap</td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td>PostgreSQL, mySQL</td>
+                    </tr>
+                    <tr>
+                        <td>git</td>
+                        <td>Github, BitBucket</td>
+                    </tr>
+                    <tr>
+                        <td>Other languages</td>
+                        <td>C, C++, OCaml</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        <div id="prjects" class="container">
-            <h1 class="header">PROJECTS</h1>
-                <ul>
-                    <li><a href="pages/learn2play/index.html">Learn2Play</a></li>
-                    <li><a href="pages/gmail-mockup/problem1.html">Google Mockup</a></li>
-                    <li><a href="pages/paper-infinity/jjs2245.html">Paper Infinity</a></li>
-                    <li><a href="pages/sale-page/prob2-all.html">Sale page</a></li>
-                </ul>
+
+        <div class="container">
+            <h2 class="header">PROJECTS</h2>
+            <div class="card-deck">
+                <div class="card text-white bg-dark border-light">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="pages/learn2play/index.html">Learn2Play</a></h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-dark border-light">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="pages/paper-infinity/jjs2245.html">Paper Infinity</a></h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-dark border-light">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="pages/gmail-mockup/problem1.html">Google Mockup</a></h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <br/>
     </div>
 
 
