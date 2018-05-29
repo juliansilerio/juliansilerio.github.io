@@ -2,22 +2,68 @@ var skills = [
     {
         "title" : "Python",
         "subtitle" : "My primary (and favorite) programming language.",
-        "text" : "Learned through academic work and side projects. Relevant technologies include Flask, scikit-learn, numpy, keras with tensorflow, pytorch, pickle, io"
+        "text" : "Learned through academic work and side projects. Relevant technologies include Flask, scikit-learn, numpy, keras with tensorflow, pytorch, pickle, io",
+        "proficient" : "y"
     },
     {
         "title" : "php",
         "subtitle" : "$txt = 'I love php!';",
-        "text" : "Learned through professional work. Relevant technologies include Symfony, Doctrine, phpMyAdmin, Codeception, twig"
+        "text" : "Learned through professional work. Relevant technologies include Symfony, Doctrine, phpMyAdmin, Codeception, twig",
+        "proficient" : "y"
     },
     {
         "title" : "Java",
         "subtitle" : "String str = 'Hello, Java!';",
-        "text" : "Learned through academic work. Also my first programming language"
+        "text" : "Learned through academic work. Also my first programming language",
+        "proficient" : "y"
     },
     {
         "title" : "Web development",
+        "subtitle" : "<p>Does this really count?</p>",
+        "text" : "Learned through academic and professional work. Relevant technologies include HTML, CSS, Javascript, jQuery,Bootstrap.",
+        "proficient" : "y"
+    },
+    {
+        "title" : "C/C++",
+        "subtitle" : "string str1 = 'C U later'",
+        "text" : "Learned through academic work. Notable work includes a course lookup server.",
+        "proficient" : ""
+    },
+    {
+        "title" : "OCaml" ,
         "subtitle" : "",
-        "text" : "Learned through academic and professional work. Relevant technologies include HTML, CSS, Javascript, jQuery,Bootstrap."
+        "text" : "Learned through academic work. Notable work includes custom programming language based on Go.",
+        "proficient" : ""
+    },
+    {
+        "title" : "git",
+        "subtitle" : "git commit -m 'add skills section'",
+        "text" : "Learned through academic and professional work. Most of my work resides on Github, but I have also used BitBucket for work and other projects.",
+        "proficient" : "y"
+    },
+    {
+        "title" : "Microsoft Office and Google Drive",
+        "subtitle" : "Do programmers write essays?",
+        "text" : "Learned through academic and professional work. Very familiar with Office, Excel, and Powerpoint and Google equivalents.",
+        "proficient" : "y"
+    },
+    {
+        "title" : "Graphic design",
+        "subtitle" : "Who better to make your graphics than yourself?",
+        "text" : "Learned through professional work and interest on the side. Notable work includes clothing designs for Columbia Engineering student council with hundreds of sales. Relevant technologies include inDesign, GIMP.",
+        "proficient" : "y"
+    },
+    {
+        "title" : "Photo editing",
+        "subtitle" : "Gotta look pretty.",
+        "text" : "Learned as a hobby. Relevant technologies include GIMP, Adobe Photoshop.",
+        "proficient" : "y"
+    },
+    {
+        "title" : "Video editing",
+        "subtitle" : "No need for greenscreens here.",
+        "text" : "Learned as a hobby. Have created some vlogs from travels. Relevant technologies include DaVinci Resolve, Adobe Premiere, Sony Vegas.",
+        "proficient" : "y"
     },
 ];
 
@@ -27,7 +73,37 @@ var work = [
         "company" : "Columbia College Information Technology<br/>New York City, New York",
         "role" : "Software engineering intern",
         "duration" : "June 2017 -<br>May 2018",
-        "notes": "Coding and stuff"
+        "notes": "Worked mostly with Columbia's Urban NY lottery system, through which students can win tickets to various events such as Broadway shows, the opera, sports events, and many more experiences around the city. Specifically worked on the lottery component itself and developed the algorithm to fill as many tickets as possible based on preference per student."
+    },
+    {
+        "company" : "Columbia College Information Technology<br/>New York City, New York",
+        "role" : "Desktop support intern",
+        "duration" : "June 2016 -<br/>May 2017",
+        "notes" : "Duties include assisting with the management of hardware and software across Columbia College's administrative units such as the analyzing and correcting departmental computing problems and performing periodic system audits and maintenance."
+    },
+    {
+        "company" : "Columbia University Alumni Center<br/>New York City, New York",
+        "role" : "Student fundraiser",
+        "duration" : "Jan. 2016 -<br/>Aug. 2016",
+        "notes" : "Kept up-to-date with alumni, fostered a sense of community within the alumni network, and fundraised for Columbia’s annual fund through alumni and friends of the university."
+    },
+    {
+        "company" : "Columbia University Athletics Department<br/>New York City, New York",
+        "role" : "Intramural referee",
+        "duration" : "Sep. 2015 -<br/>Aug. 2016",
+        "notes" : "Kept score of and officiated intramural soccer, basketball, and volleyball games and maintained a fun, competitive, and safe environment on the field."
+    },
+    {
+        "company" : "RumorFix<br/>Venice, California",
+        "role" : "Intern",
+        "duration" : "May 2015 -<br/>Aug. 2015",
+        "notes" : "Maintained Facebook ad campaign with reports on efficiency and effectiveness under guidance of vice president of marketing. Also helped content copy team in writing articles centered on pop culture icons."
+    },
+    {
+        "company" : "Los Angeles World's Fair<br/>Venice, California",
+        "role" : "Intern",
+        "duration" : "Summers 2014, 2015",
+        "notes" : "Assisted executive director in the planning and execution of major crowdfunding events for the Los Angeles World’s Fair around the greater Los Angeles city area."
     },
 
 ];
