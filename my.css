@@ -5,10 +5,10 @@ body {
 
 #nav_bar {
 	border: 0;
-	background-color: black;
+	background-color: #0e1111;
 	border-radius: 0px;
 	margin-bottom: 0;
-    height: 30px;
+    height: 35px;
 }
 
 #bio {

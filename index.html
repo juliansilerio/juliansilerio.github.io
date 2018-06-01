@@ -16,6 +16,9 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
     <script src="data.json"></script>
     <script src="my.js"></script>
 
@@ -23,7 +26,7 @@
 </head>
 <body>
 
-    <div class="jumbotron jumbotron-fluid">
+    <div id="top" class="jumbotron jumbotron-fluid">
         <div class="container-fluid">
             <!-- I should fix this in CSS -->
             <h1 id="big_header" class="display-3 font-weight-bold text-center text-stroke-black">
@@ -32,14 +35,15 @@
         </div>
     </div>
 
-    <!--nav id='nav_bar'>
+    <nav id='nav_bar'>
         <ul class='nav_links'>
-            <li><a href="pages/learn2play/index.html">Learn2Play</a></li>
-            <li><a href="pages/gmail-mockup/problem1.html">Google Mockup</a></li>
-            <li><a href="pages/paper-infinity/jjs2245.html">Paper Infinity</a></li>
-            <li><a href="pages/sale-page/prob2-all.html">Sale page</a></li>
+            <li><a href="#bio" class="ml-4">JULIAN</a></li>
+            <li><a href="#school">SCHOOL</a></li>
+            <li><a href="#work">WORK</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#contact-info">LINKS</a></li>
         </ul>
-    </nav-->
+    </nav>
 
     <!-- me summary-->
     <div id="main" class="container">
@@ -78,7 +82,7 @@
             </div>
         </div>
 
-        <div id="work" class="container">
+        <div id="work" class="container mb-2">
             <h2>WORK EXPERIENCE</h2>
             <table class="table">
                 <thead>
@@ -95,14 +99,27 @@
             </table>
         </div>
 
-        <div id="skills" class="container">
-            <h2 class="header">SKILLS</h2>
+        <div id="skills" class="container mb-3">
+            <h2>SKILLS</h2>
             <div id="skill-cards" class="card-columns">
             <!--load data in-->
             </div>
         </div>
 
-        <br/>
+        <div id="contact-info" class="container mb-5">
+            <h2>LINKS & CONTACT INFO</h2>
+            <div class="container text-center">
+                <a href="https://www.linkedin.com/in/julian-silerio-60076ab4/" title="LinkedIn">
+                    <i class="fab fa-linkedin fa-4x mr-4"></i>
+                </a>
+                <a href="https://github.com/juliansilerio" title="Github">
+                    <i class="fab fa-github fa-4x mb-4"></i>
+                </a>
+                <a href="https://www.dropbox.com/s/xm1ldetiexq0eb9/julian-silerio-resume.pdf?dl=0" title="Resume">
+                    <i class="fas fa-address-card fa-4x ml-4"></i>
+                </a>
+            </div>
+        </div>
     </div>
 
 
