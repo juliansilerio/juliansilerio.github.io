@@ -1,3 +1,26 @@
+@media (min-width: 1144px) {
+    #bio_text {
+        width: 600px;
+        position: relative;
+        padding-left: 0;
+        overflow: auto;
+    }
+
+
+    #pro_pic {
+        float: left;
+        display: inline-block;
+        overflow: auto;
+    }
+
+    #bio {
+        margin-bottom: 430px;
+    }
+
+}
+
+
+
 body {
     background-color: #0e1111;
     color:white;
@@ -5,34 +28,37 @@ body {
 
 #nav_bar {
 	border: 0;
-	background-color: #0e1111;
+	background-color: black;
 	border-radius: 0px;
 	margin-bottom: 0;
-    height: 35px;
+    height: 30px;
 }
 
-#bio {
-    margin-bottom: 430px;
-}
+
 
 #bio_text {
-    width: 600px;
     float: left;
-    position: relative;
-    padding-left: 0;
-    overflow: auto;
 }
 
 
 #pro_pic {
     width: 450px;
-    float: left;
-    display: inline-block;
-    overflow: auto;
 }
 
 #loyola {
     height: 258px;
+}
+
+.jumbotron {
+    /* parallax stuff below */
+    background-image: url("img/background2.jpg");
+    background-size: cover;
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: 50% 1%;
+
+    margin-bottom: 0;
+    padding: 200px;
 }
 
 .navbar-fixed {
@@ -56,17 +82,6 @@ body {
 	text-decoration: none;
 }
 
-.jumbotron {
-    /* parallax stuff below */
-    background-image: url("img/background2.jpg");
-    background-size: cover;
-    min-height: 1000px;
-    background-attachment: fixed;
-    background-position: 50% 1%;
-
-    margin-bottom: 0;
-    padding: 200px;
-}
 
 .card-size{
     width: 200px;
