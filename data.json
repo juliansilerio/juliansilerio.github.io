@@ -65,6 +65,24 @@ var skills = [
         "text" : "Learned as a hobby. Have created some vlogs from travels. Relevant technologies include DaVinci Resolve, Adobe Premiere, Sony Vegas.",
         "proficient" : "y"
     },
+    {
+        "title" : "German",
+        "subtitle" : "Hallo Welt, wie geht's dir?.",
+        "text" : "Learned through academic work. Completed minor in Germanic culture and language.",
+        "proficient" : "y"
+    },
+    {
+        "title" : "Spanish",
+        "subtitle" : "Hola Mundo, ¿cómo estás?",
+        "text" : "Some learned through academic work and growing up. Very basic level.",
+        "proficient" : ""
+    },
+    {
+        "title" : "Tagalog",
+        "subtitle" : "Kamusta ka?",
+        "text" : "Learned growing up. Conversational level, no formal training.",
+        "proficient" : ""
+    },
 ];
 
 

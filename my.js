@@ -1,10 +1,11 @@
 function checkNavbar(location) {
+    console.log($(window).scrollTop());
     if ($(window).scrollTop() > location) {
-        $('#nav_bar').show();
+        //$('#nav_bar').show();
         $('#nav_bar').addClass('navbar-fixed');
     }
     if ($(window).scrollTop() < location) {
-        $('#nav_bar').hide();
+        //$('#nav_bar').hide();
         $('#nav_bar').removeClass('navbar-fixed');
     }
 }
@@ -53,7 +54,7 @@ function loadWork() {
 }
 
 $(document).ready(function() {
-    var LOCATION = 1000;
+    var LOCATION = 970;
     loadSkills();
     loadWork();
 
