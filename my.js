@@ -58,6 +58,14 @@ function makeCard(data) {
         cardBody.append(text);
     }
 
+
+    if(data.footnote) {
+        console.log(data.footnote);
+        var footnote = $('<small></small>').addClass('card-text text-muted');
+        footnote.append(data.footnote);
+        cardBody.append(footnote);
+    }
+
     if (data.tags) {
         var cardTags = $('<div></div>');
         var x;
