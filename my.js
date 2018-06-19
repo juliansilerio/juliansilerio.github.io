@@ -1,3 +1,10 @@
+var badgeDict = {
+    'proficient' : 'badge-warning',
+    'personal' : 'badge-primary',
+    'school' : 'badge-light',
+    'work' : 'badge-dark',
+}
+
 function checkNavbar(location) {
     console.log($(window).scrollTop());
     if ($(window).scrollTop() > location) {
@@ -10,27 +17,41 @@ function checkNavbar(location) {
     }
 }
 
+function makeCard(data) {
+    console.log(data);
+    var cardDiv = $('<div></div>').addClass('card bg-transparent text-white border-light');
+    var cardBody = $('<div></div>').addClass('card-body');
+
+    var title = $('<h5></h5>').addClass('card-title').text(data.title);
+    var subtitle = $('<h6></h6>').addClass('card-subtitle mb-2 text-muted').text(data.subtitle);
+    var text = $('<h6></h6>').addClass('card-text').text(data.text);
+
+    cardBody.append(title);
+    cardBody.append(subtitle);
+    cardBody.append(text);
+
+    //if (data.tags) {
+    var cardTags = $('<div></div>');
+    var x;
+    for (x in data.tags) {
+        var badge = $('<span></span>').addClass('badge').text(data.tags[x]);
+        badge.addClass(badgeDict[data.tags[x]]);
+        cardTags.append(badge);
+        cardTags.append(' ');
+    }
+    cardBody.append(cardTags);
+
+    //}
+
+    cardDiv.append(cardBody);
+    return cardDiv;
+}
+
 function loadSkills() {
     var i;
     for (i in skills) {
-        var cardDiv = $('<div></div>').addClass('card bg-transparent text-white border-light');
-        var cardBody = $('<div></div>').addClass('card-body');
-
-        var title = $('<h5></h5>').addClass('card-title').text(skills[i].title);
-        var subtitle = $('<h6></h6>').addClass('card-subtitle mb-2 text-muted').text(skills[i].subtitle);
-        var text = $('<h6></h6>').addClass('card-text').text(skills[i].text);
-
-        cardBody.append(title);
-        cardBody.append(subtitle);
-        cardBody.append(text);
-
-        if (skills[i].proficient) {
-            var badge = $('<span></span>').addClass('badge badge-primary').text('proficient');
-            cardBody.append(badge);
-        }
-
-        cardDiv.append(cardBody);
-        $('#skill-cards').append(cardDiv);
+        var card = makeCard(skills[i]);
+        $('#skill-cards').append(card);
 
     }
 }
@@ -52,6 +73,15 @@ function loadWork() {
         $('#table-body').append(row);
     }
 }
+
+/**
+function loadProjects {
+    var i;
+    for (i in projects) {
+        var
+    }
+}
+**/
 
 $(document).ready(function() {
     var LOCATION = 970;

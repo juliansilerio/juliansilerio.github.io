@@ -3,85 +3,85 @@ var skills = [
         "title" : "Python",
         "subtitle" : "My primary (and favorite) programming language.",
         "text" : "Learned through academic work and side projects. Relevant technologies include Flask, scikit-learn, numpy, keras with tensorflow, pytorch, pickle, io",
-        "proficient" : "y"
+        "tags" : ["proficient", "personal", "school"],
     },
     {
         "title" : "php",
         "subtitle" : "$txt = 'I love php!';",
         "text" : "Learned through professional work. Relevant technologies include Symfony, Doctrine, phpMyAdmin, Codeception, twig",
-        "proficient" : "y"
+        "tags" : ["proficient", "work"],
     },
     {
         "title" : "Java",
         "subtitle" : "String str = 'Hello, Java!';",
         "text" : "Learned through academic work. Also my first programming language",
-        "proficient" : "y"
+        "tags" : ["proficient", "school"]
     },
     {
         "title" : "Web development",
         "subtitle" : "<p>Does this really count?</p>",
         "text" : "Learned through academic and professional work. Relevant technologies include HTML, CSS, Javascript, jQuery,Bootstrap.",
-        "proficient" : "y"
+        "tags" : ["proficient", "work", "school", "personal"]
     },
     {
         "title" : "C/C++",
         "subtitle" : "string str1 = 'C U later'",
         "text" : "Learned through academic work. Notable work includes a course lookup server.",
-        "proficient" : ""
+        "tags" : ["school"]
     },
     {
         "title" : "OCaml" ,
         "subtitle" : "",
         "text" : "Learned through academic work. Notable work includes custom programming language based on Go.",
-        "proficient" : ""
+        "tags" : ["school"]
     },
     {
         "title" : "git",
         "subtitle" : "git commit -m 'add skills section'",
         "text" : "Learned through academic and professional work. Most of my work resides on Github, but I have also used BitBucket for work and other projects.",
-        "proficient" : "y"
+        "tags" : ["proficient", "work", "school", "personal"]
     },
     {
         "title" : "Microsoft Office and Google Drive",
         "subtitle" : "Do programmers write essays?",
         "text" : "Learned through academic and professional work. Very familiar with Office, Excel, and Powerpoint and Google equivalents.",
-        "proficient" : "y"
+        "tags" : ["proficient", "school", "work"]
     },
     {
         "title" : "Graphic design",
         "subtitle" : "Who better to make your graphics than yourself?",
         "text" : "Learned through professional work and interest on the side. Notable work includes clothing designs for Columbia Engineering student council with hundreds of sales. Relevant technologies include inDesign, GIMP.",
-        "proficient" : "y"
+        "tags" : ["proficient", "work", "personal"]
     },
     {
         "title" : "Photo editing",
         "subtitle" : "Gotta look pretty.",
         "text" : "Learned as a hobby. Relevant technologies include GIMP, Adobe Photoshop.",
-        "proficient" : "y"
+        "tags" : ["proficient", "personal"]
     },
     {
         "title" : "Video editing",
         "subtitle" : "No need for greenscreens here.",
         "text" : "Learned as a hobby. Have created some vlogs from travels. Relevant technologies include DaVinci Resolve, Adobe Premiere, Sony Vegas.",
-        "proficient" : "y"
+        "tags" : ["proficient", "personal"]
     },
     {
         "title" : "German",
         "subtitle" : "Hallo Welt, wie geht's dir?.",
         "text" : "Learned through academic work. Completed minor in Germanic culture and language.",
-        "proficient" : "y"
+        "tags" : ["proficient", "school"]
     },
     {
         "title" : "Spanish",
         "subtitle" : "Hola Mundo, ¿cómo estás?",
         "text" : "Some learned through academic work and growing up. Very basic level.",
-        "proficient" : ""
+        "tags" : ["school", "personal"]
     },
     {
         "title" : "Tagalog",
         "subtitle" : "Kamusta ka?",
         "text" : "Learned growing up. Conversational level, no formal training.",
-        "proficient" : ""
+        "tags" : ["personal"    ]
     },
 ];
 
@@ -129,51 +129,51 @@ var work = [
 var projects = [
     {
         "title" : "Learn2Play",
-        "description" : "",
+        "text" : "",
         "img" : "img/learn2play.png",
         "link" : "",
-        "footnote" : ,
-        "tags" : ,
+        "footnote" : "",
+        "tags" : "",
     },
     {
         "title" : "Paper infinity",
-        "description" : "",
+        "text" : "",
         "img" : "img/columbia-paper-infinity.png",
         "link" : "",
-        "footnote" : ,
-        "tags" : ,
+        "footnote" : "",
+        "tags" : "",
     },
     {
         "title" : "GMail Mockup",
-        "description" : ,
-        "img" : ,
+        "text" : "",
+        "img" : "",
         "link" : "",
-        "footnote" : ,
-        "tags" : ,
+        "footnote" : "",
+        "tags" : "",
     },
     {
         "title" : "MNIST Classifier",
-        "description" : ,
-        "img" : ,
-        "link" : ,
-        "footnote" : ,
-        "tags" : ,
+        "text" : "",
+        "img" : "",
+        "link" : "",
+        "footnote" : "",
+        "tags" : "",
     },
     {
         "title" : "Under My UmbReLU",
-        "description" : ,
-        "img" : ,
-        "link" : ,
-        "footnote" : ,
-        "tags" : ,
+        "text" : "",
+        "img" : "",
+        "link" : "",
+        "footnote" : "",
+        "tags" : "",
     },
     {
         "title" : "Free Fu'd",
-        "description" : ,
-        "img" : ,
-        "link" : ,
-        "footnote" : ,
-        "tags" : ,
+        "text" : "",
+        "img" : "",
+        "link" : "",
+        "footnote" : "",
+        "tags" : "",
     },
 
 ];
