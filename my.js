@@ -54,7 +54,7 @@ function makeCard(data) {
     }
 
     if (data.text) {
-        var text = $('<h6></h6>').addClass('card-text').text(data.text);
+        var text = $('<h6></h6>').addClass('card-text').html(data.text);
         cardBody.append(text);
     }
 
