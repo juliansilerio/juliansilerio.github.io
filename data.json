@@ -125,3 +125,55 @@ var work = [
     },
 
 ];
+
+var projects = [
+    {
+        "title" : "Learn2Play",
+        "description" : "",
+        "img" : "img/learn2play.png",
+        "link" : "",
+        "footnote" : ,
+        "tags" : ,
+    },
+    {
+        "title" : "Paper infinity",
+        "description" : "",
+        "img" : "img/columbia-paper-infinity.png",
+        "link" : "",
+        "footnote" : ,
+        "tags" : ,
+    },
+    {
+        "title" : "GMail Mockup",
+        "description" : ,
+        "img" : ,
+        "link" : "",
+        "footnote" : ,
+        "tags" : ,
+    },
+    {
+        "title" : "MNIST Classifier",
+        "description" : ,
+        "img" : ,
+        "link" : ,
+        "footnote" : ,
+        "tags" : ,
+    },
+    {
+        "title" : "Under My UmbReLU",
+        "description" : ,
+        "img" : ,
+        "link" : ,
+        "footnote" : ,
+        "tags" : ,
+    },
+    {
+        "title" : "Free Fu'd",
+        "description" : ,
+        "img" : ,
+        "link" : ,
+        "footnote" : ,
+        "tags" : ,
+    },
+
+];
