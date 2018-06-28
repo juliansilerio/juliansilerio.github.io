@@ -29,6 +29,10 @@ function makeCard(data) {
 
     if (data.img) {
         var img = $('<img>').addClass('card-img-top').attr('src', data.img);
+        if (data.img_title) {
+            img.attr('title', data.img_title);
+        }
+
         /*
         if (link) {
             console.log(link);
