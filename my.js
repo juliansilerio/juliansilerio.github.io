@@ -1,6 +1,6 @@
 var badgeDict = {
     'proficient' : 'badge-warning',
-    'personal' : 'badge-primary',
+    'personal' : 'badge-danger',
     'school' : 'badge-light',
     'work' : 'badge-dark',
 }
