@@ -48,7 +48,7 @@ body {
 
 .jumbotron {
     /* parallax stuff below */
-    background-image: url("img/background2.jpg");
+    background-image: url("img/background/background2.jpg");
     background-size: cover;
     min-height: 1000px;
     background-attachment: fixed;

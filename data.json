@@ -130,7 +130,7 @@ var projects = [
     {
         "title" : "MNIST Classifier",
         "text" : "A side project to keep my feet wet with machine learning, I developed a classifier for the MNIST handwritten digits dataset. I implemented an architecture based on VGG and achieved an accuracy of 89%.",
-        "img" : "img/mnist.png",
+        "img" : "img/projects/mnist.png",
         "link" : "",
         "footnote" : "Summer 2018",
         "tags" : ["personal"],
@@ -138,7 +138,7 @@ var projects = [
     {
         "title" : "Learn2Play",
         "text" : "Ever have trouble learning something from YouTube? Use Learn2Play to split up and loop your videos to get each part down before putting them all together!",
-        "img" : "img/learn2play.png",
+        "img" : "img/projects/learn2play.png",
         "link" : "pages/learn2play/index.html",
         "footnote" : "COMS 4170, User Interface Design, Spring 2018",
         "tags" : ["school"],
@@ -146,7 +146,7 @@ var projects = [
     {
         "title" : "Paper Infinity",
         "text" : "A system for paper company employees to manage sales with clients and determine who is and isn't on the party planning committee.",
-        "img" : "img/columbia-paper-infinity.png",
+        "img" : "img/projects/columbia-paper-infinity.png",
         "link" : "pages/paper-infinity/jjs2245.html",
         "footnote" : "COMS 4170, User Interface Design, Spring 2018",
         "tags" : ["school"],
@@ -154,7 +154,7 @@ var projects = [
     {
         "title" : "Gmail Mockup",
         "text" : "A mockup of Gmail using HTML, CSS, and Bootstrap. There's no functionality to the site, but at least it looks pretty.",
-        "img" : "img/gmail.png",
+        "img" : "img/projects/gmail.png",
         "link" : "pages/gmail-mockup/problem1.html",
         "footnote" : "COMS 4170, User Interface Design, Spring 2018",
         "tags" : ["school"],
@@ -162,7 +162,7 @@ var projects = [
     {
         "title" : "Under My UmbReLU",
         "text" : "A potential solution to <strong>S</strong>tanford's <strong>Qu</strong>estion <strong>A</strong>nswering <strong>D</strong>ataset (<strong>SQuAD</strong>). My team and I based our architecture on a previous submission but used Keras on Tensorflow for our implementation.",
-        "img" : "img/under_my_umbrelu.png",
+        "img" : "img/projects/under_my_umbrelu.png",
         "img_title" : "Network overview based on and courtesy of Xiong et al. (2016)",
         "link" : "https://www.dropbox.com/s/caxtd737fzg93i4/under_my_umbReLU.pdf",
         "footnote" : "COMS 4995 Deep Learning, Spring 2018",
@@ -171,7 +171,7 @@ var projects = [
     {
         "title" : "Senior Scramble",
         "text" : "My friend and I developed this script for student council, who used it to match seniors mutually interested in one another and help them get in touch.",
-        "img" : "img/senior-scramble.png",
+        "img" : "img/projects/senior-scramble.png",
         "img_title" : "Definition courtsey of Urban Dictionary",
         "link" : "",
         "footnote" : "Engineering Student Council, Spring 2018",
@@ -180,7 +180,7 @@ var projects = [
     {
         "title" : "GoBackwards",
         "text" : "A simplified implementation of the Go language that also included an image-to-ascii art printer. Developed in OCaml.",
-        "img" : "img/gobackwards.png",
+        "img" : "img/projects/gobackwards.png",
         "link" : "https://www.dropbox.com/s/yxoy0apf4np3hb7/gobackwards.pdf",
         "footnote" : "COMS 4115 Programming Languages and Translators, Fall 2017",
         "tags" : ["school"],
@@ -188,7 +188,7 @@ var projects = [
     {
         "title" : "scheduLIT",
         "text" : "Collaboritve planning taken a step further. scheduLIT allows travelers to plan trips together on one site with complete transparency and clarity, keeping all members of the group informed and guaranteeing a good time for all. Presented at JP Morgan.",
-        "img" : "img/index.svg",
+        "img" : "img/projects/schedulit.png",
         "link" : "https://github.com/andres-aguayo/ASE_CodersWhoParty_Fall2017",
         "footnote" : "COMS 4156 Advanced Software Engineering, Fall 2017",
         "tags" : ["school"],
@@ -196,7 +196,7 @@ var projects = [
     {
         "title" : "Othello Bot",
         "text" : "Using a modified version of the minimax algorithm, this computer opponent can successfully play the classic game of Othello with a decent win-rate. GUI and base Othello functions courtesy of the Artificial Intelligence course for which this bot was designed.",
-        "img" : "img/othello.png",
+        "img" : "img/projects/othello.png",
         "link" : "",
         "footnote" : "COMS 4701 Artificial Intelligence, Fall 2017",
         "tags" : ["school"],
@@ -204,7 +204,7 @@ var projects = [
     {
         "title" : "Westerosi Social Network",
         "text" : "A simple implementation of a social network with groups and messages. Designed to demonstrate database uses and operations. Based on the complex social atmosphere of <em>Game of Thrones</em>.",
-        "img" : "img/index.svg",
+        "img" : "img/projects/index.svg",
         "link" : "",
         "footnote" : "COMS 4111 Introduction to Databases, Spring 2017",
         "tags" : ["school"],
@@ -212,7 +212,7 @@ var projects = [
     {
         "title" : "Free Fu'd",
         "text" : "A project for the Application Development Initiative’s (ADI) annual Devfest, Free Fu’d is a text messaging based service that would scrape the university’s  event management calendar and inform the user of events with free food on campus that day. ",
-        "img" : "img/index.svg",
+        "img" : "img/projects/index.svg",
         "link" : "",
         "footnote" : "ADI Devfest, Spring 2016",
         "tags" : ["personal"],
