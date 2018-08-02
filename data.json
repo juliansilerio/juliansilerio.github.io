@@ -204,7 +204,8 @@ var projects = [
     {
         "title" : "Westerosi Social Network",
         "text" : "A simple implementation of a social network with groups and messages. Designed to demonstrate database uses and operations. Based on the complex social atmosphere of <em>Game of Thrones</em>.",
-        "img" : "img/projects/index.svg",
+        "img" : "img/projects/wsn.png",
+        "img_title" : "Image courtsey of HBO",
         "link" : "",
         "footnote" : "COMS 4111 Introduction to Databases, Spring 2017",
         "tags" : ["school"],
@@ -212,8 +213,8 @@ var projects = [
     {
         "title" : "Free Fu'd",
         "text" : "A project for the Application Development Initiative’s (ADI) annual Devfest, Free Fu’d is a text messaging based service that would scrape the university’s  event management calendar and inform the user of events with free food on campus that day. ",
-        "img" : "img/projects/index.svg",
-        "link" : "",
+        "img" : "img/projects/devfest.png",
+        "link" : "Image courtesy of ADI",
         "footnote" : "ADI Devfest, Spring 2016",
         "tags" : ["personal"],
     },

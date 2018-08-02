@@ -87,6 +87,29 @@ function makeCard(data) {
     return cardDiv;
 }
 
+/*
+Cards are put in top down column by column instead of top down row by row, so this function sorts the newly created div to fill the deck like a bucket
+*/
+function sortCards(cards) {
+    var newCards = [];
+    //column count needs to be done dynamically
+    var colCount = 3;
+    var specialInt = Math.ceil(cards.length/colCount);
+    var counter = 0;
+    var row = 0;
+    for (i in cards) {
+        var count = Number(row) + Number(specialInt) * Number(counter);
+        console.log(count);
+        newCards[count] = cards[i];
+        counter++;
+        if(counter > colCount - 1) {
+            counter = 0;
+            row++;
+        }
+    }
+    return newCards;
+}
+
 function loadWork() {
     var i;
     for (i in work) {
@@ -117,8 +140,11 @@ $(document).ready(function() {
     var LOCATION = 970;
 
     loadWork();
+    //sorted_skills = sortCards(skills);
+    //loadCards(sorted_skills, '#skills-cards');
     loadCards(skills, '#skills-cards');
-    loadCards(projects, '#projects-cards');
+    sorted_projects = sortCards(projects);
+    loadCards(sorted_projects, '#projects-cards');
 
     $(window).scroll(function () {
         checkNavbar(LOCATION);
