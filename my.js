@@ -137,7 +137,8 @@ function loadCards(data, location) {
 }
 
 $(document).ready(function() {
-    var LOCATION = 970;
+    var LOCATION = parseInt($('#top').css("height"), 10);
+    console.log(LOCATION);
 
     loadWork();
     //sorted_skills = sortCards(skills);

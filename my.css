@@ -1,4 +1,16 @@
-@media (min-width: 1144px) {
+@media (min-width: 768px) {
+    .jumbotron {
+        /* parallax stuff below */
+        background-image: url("img/background/background_img.jpg");
+        background-size: cover;
+        min-height: 1000px;
+        background-attachment: fixed;
+        background-position: 50% 1%;
+
+        margin-bottom: 0;
+        padding: 200px;
+    }
+
     #bio_text {
         width: 600px;
         position: relative;
@@ -16,12 +28,19 @@
     #bio {
         margin-bottom: 430px;
     }
-
 }
 
 body {
     background-color: #0e1111;
     color:white;
+}
+
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
 }
 
 #nav_bar {
@@ -38,32 +57,15 @@ body {
 
 
 #pro_pic {
-    width: 450px;
+    max-width: 300px;
 }
+
 
 #loyola {
     height: 258px;
 }
 
 
-.jumbotron {
-    /* parallax stuff below */
-    background-image: url("img/background/background_img.jpg");
-    background-size: cover;
-    min-height: 1000px;
-    background-attachment: fixed;
-    background-position: 50% 1%;
-
-    margin-bottom: 0;
-    padding: 200px;
-}
-
-.navbar-fixed {
-    top: 0;
-    z-index: 100;
-    position: fixed;
-    width: 100%;
-}
 
 .nav_links {
     margin: 0;
@@ -84,10 +86,10 @@ body {
     width: 200px;
 }
 
-.edu-width {
+/*.edu-width {
     width: 650px;
 }
-
+*/
 a {
     color: white;
 }
