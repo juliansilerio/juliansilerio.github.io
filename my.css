@@ -1,9 +1,9 @@
-@media (min-width: 768px) {
+@media (min-width: 481px) {
     .jumbotron {
         /* parallax stuff below */
         background-image: url("img/background/background_img.jpg");
         background-size: cover;
-        min-height: 1000px;
+        min-height: 800px;
         background-attachment: fixed;
         background-position: 50% 1%;
 
@@ -11,8 +11,9 @@
         padding: 200px;
     }
 
+    /*
     #bio_text {
-        width: 600px;
+        width: auto;
         position: relative;
         padding-left: 0;
         overflow: auto;
@@ -20,13 +21,16 @@
 
 
     #pro_pic {
-        float: left;
-        display: inline-block;
-        overflow: auto;
+        float: right;
     }
+
 
     #bio {
         margin-bottom: 430px;
+    }
+    */
+    .nav_links li a {
+    	padding: 0 15.5px;
     }
 }
 
@@ -45,27 +49,25 @@ body {
 
 #nav_bar {
 	border: 0;
-	background-color: black;
+	background-color: inherit;
 	border-radius: 0px;
 	margin-bottom: 0;
     height: 30px;
 }
 
+/*
 #bio_text {
     float: left;
 }
-
 
 #pro_pic {
     max-width: 300px;
 }
 
-
 #loyola {
     height: 258px;
 }
-
-
+*/
 
 .nav_links {
     margin: 0;
@@ -76,7 +78,7 @@ body {
     margin-top: 4px;
 }
 .nav_links li a {
-	padding: 0 15.5px;
+	padding: 0 4.5px;
 	color: white;
 	text-decoration: none;
 }
