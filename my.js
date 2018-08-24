@@ -117,7 +117,7 @@ function loadWork() {
         var company = $('<td></td>').html(work[i].company);
         var role = $('<td></td>').text(work[i].role);
         var duration = $('<td></td>').html(work[i].duration);
-        var notes = $('<td></td>').addClass('text-justify').text(work[i].notes);
+        var notes = $('<td></td>').addClass('text-justify  d-none d-sm-table-cell').text(work[i].notes);
 
         row.append(company);
         row.append(role);

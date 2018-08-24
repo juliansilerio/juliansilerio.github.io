@@ -6,29 +6,9 @@
         min-height: 800px;
         background-attachment: fixed;
         background-position: 50% 1%;
-
-        margin-bottom: 0;
         padding: 200px;
     }
 
-    /*
-    #bio_text {
-        width: auto;
-        position: relative;
-        padding-left: 0;
-        overflow: auto;
-    }
-
-
-    #pro_pic {
-        float: right;
-    }
-
-
-    #bio {
-        margin-bottom: 430px;
-    }
-    */
     .nav_links li a {
     	padding: 0 15.5px;
     }
@@ -39,6 +19,10 @@ body {
     color:white;
 }
 
+.jumbotron {
+    background-color:orange;
+    margin-bottom: 0;
+}
 
 .navbar-fixed {
     top: 0;
@@ -55,20 +39,6 @@ body {
     height: 30px;
 }
 
-/*
-#bio_text {
-    float: left;
-}
-
-#pro_pic {
-    max-width: 300px;
-}
-
-#loyola {
-    height: 258px;
-}
-*/
-
 .nav_links {
     margin: 0;
 }
@@ -77,21 +47,18 @@ body {
 	display: inline-block;
     margin-top: 4px;
 }
+
 .nav_links li a {
-	padding: 0 4.5px;
+	padding: 0 4px;
 	color: white;
 	text-decoration: none;
 }
 
 
-.card-size{
-    width: 200px;
+.card {
+    max-width: 284px;
 }
 
-/*.edu-width {
-    width: 650px;
-}
-*/
 a {
     color: white;
 }
@@ -103,10 +70,6 @@ a:hover{
 
 .text-black {
     color: black;
-}
-
-.bg-dark {
-    background-color: #2e2e2e;
 }
 
 .text-stroke-black {
