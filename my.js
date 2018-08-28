@@ -64,7 +64,7 @@ function makeCard(data) {
 
 
     if(data.footnote) {
-        console.log(data.footnote);
+        //console.log(data.footnote);
         var footnote = $('<small></small>').addClass('card-text text-muted');
         footnote.append(data.footnote);
         cardBody.append(footnote);
@@ -94,12 +94,12 @@ function sortCards(cards) {
     var newCards = [];
     //column count needs to be done dynamically
     var colCount = 3;
-    var specialInt = Math.ceil(cards.length/colCount);
+    var numRows = Math.ceil(cards.length/colCount);
     var counter = 0;
     var row = 0;
     for (i in cards) {
-        var count = Number(row) + Number(specialInt) * Number(counter);
-        console.log(count);
+        var count = Number(row) + Number(numRows) * Number(counter);
+        //console.log(count);
         newCards[count] = cards[i];
         counter++;
         if(counter > colCount - 1) {
@@ -138,7 +138,7 @@ function loadCards(data, location) {
 
 $(document).ready(function() {
     var LOCATION = parseInt($('#top').css("height"), 10);
-    console.log(LOCATION);
+    //console.log(LOCATION);
 
     loadWork();
     //sorted_skills = sortCards(skills);
