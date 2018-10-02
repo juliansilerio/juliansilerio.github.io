@@ -88,16 +88,22 @@ var skills = [
 
 var work = [
     {
+        "company" : "Columbia Business School<br/>New York City, New York",
+        "role" : "Lead software engineer",
+        "duration" : "Sep. 2018 -<br>present",
+        "notes": "Modernizing DEEP survey system for research in time- and risk-based decision making. Converting application from Ruby on Rails to PHP utilizing LAMP (Linux, Apache, MySQL, PHP) stack to update outdated technology of program and increase efficiency of survey system. Directing system architecture implementation using agile management to accommodate client’s needs and to expedite overall product development cycle"
+    },
+    {
         "company" : "Columbia College Information Technology<br/>New York City, New York",
         "role" : "Software engineering intern",
         "duration" : "June 2017 -<br>May 2018",
-        "notes": "Worked mostly with Columbia's Urban NY lottery system, through which students can win tickets to various events such as Broadway shows, the opera, sports events, and many more experiences around the city. Specifically worked on the lottery component itself and developed the algorithm to fill as many tickets as possible based on preference per student."
+        "notes": "Redesigned, implemented, and tested Columbia’s undergraduate lottery for tickets to sports, Broadway musicals, and other events around NYC. Participated in full development cycle, code reviews, daily stand-ups, and other aspects of agile software development with other members of engineering team. Utilized PHP (Symfony, Doctrine), front-end stack of HTML, CSS, Bootstrap; SQL, and git for application development"
     },
     {
         "company" : "Columbia College Information Technology<br/>New York City, New York",
         "role" : "Desktop support intern",
         "duration" : "June 2016 -<br/>May 2017",
-        "notes" : "Duties include assisting with the management of hardware and software across Columbia College's administrative units such as the analyzing and correcting departmental computing problems and performing periodic system audits and maintenance."
+        "notes" : "Assisted in management and troubleshooting of hardware and software across all levels of Columbia College’s administration. Analyzed and corrected computing problems and technology issues remotely and in-person. Developed relationships with staff and clients to tailor support personally to each individual "
     },
     {
         "company" : "Columbia University Alumni Center<br/>New York City, New York",
