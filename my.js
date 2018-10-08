@@ -137,7 +137,7 @@ function loadCards(data, location) {
 }
 
 $(document).ready(function() {
-    var LOCATION = parseInt($('#top').css("height"), 10);
+    var LOCATION = window.innerHeight;
     //console.log(LOCATION);
 
     loadWork();
@@ -148,6 +148,12 @@ $(document).ready(function() {
     loadCards(sorted_projects, '#projects-cards');
 
     $(window).scroll(function () {
-        checkNavbar(LOCATION);
+        checkNavbar(LOCATION + document.getElementById("nav_bar").height);
     });
+
+    if (window.matchMedia("(min-width: 481px)").matches) {
+        document.getElementById("top").style.minHeight = LOCATION + "px";
+    }
+
+    console.log(window.innerHeight);
 });
