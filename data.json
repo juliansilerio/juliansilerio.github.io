@@ -30,6 +30,12 @@ var skills = [
         "tags" : ["school"]
     },
     {
+        "title" : "Go",
+        "subtitle" : "var str := ''Howdy, world!''",
+        "text" : "Learned through academic work. Notable work includes implementations of MapReduce, a server backup system, Paxos, and a sharded key-value server.",
+        "tags" : ["school"]
+    },
+    {
         "title" : "OCaml" ,
         "subtitle" : "",
         "text" : "Learned through academic work. Notable work includes custom programming language based on Go.",
@@ -40,6 +46,12 @@ var skills = [
         "subtitle" : "git commit -m 'add skills section'",
         "text" : "Learned through academic and professional work. Most of my work resides on Github, but I have also used BitBucket for work and other projects.",
         "tags" : ["proficient", "work", "school", "personal"]
+    },
+    {
+        "title" : "Agile project management",
+        "subtitle" : "As a developer, I want to write good code so that I have to debug as little as possible.",
+        "text" : "Learned through academic and professional work. Especially familiar with Jira for full development cycle.",
+        "tags" : ["proficient", "work", "school"]
     },
     {
         "title" : "Microsoft Office and Google Drive",
