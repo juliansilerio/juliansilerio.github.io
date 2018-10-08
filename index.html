@@ -48,75 +48,88 @@
     <!-- me summary-->
     <div id="main" class="container">
         <div id="bio" class="container mb-2">
-            <h2 class="header">ABOUT ME</h2>
-            <div class="row">
-                <div id="bio_text" class="container col-md-7">
-                    <p class="text-justify font-large">My name is Julian Silerio, and I'm currently a senior undergrad at the School of Engineering and Applied Sciences at Columbia University. I will be graduating in December 2018 with a bachelor's in computer science and a minor in German. </p>
-                    <p class="text-justify font-large">Throughout my studies I found myself especially interested in machine learning and artificial intelligence, although I will be graduating in the applications track within the computer science department. I've also recently become fascinated with the world of cryptocurrency, but, like most people, I'm still working to get a better grasp on it. I plan to start my professional career soon after graduation, but I hope to return to school one day and pursue my interests further in machine learning and data science.</p>
-                    <p class="text-justify">Besides long walks on the beach, I like to watch and play sports in my spare time. I'm an avid basketball fan and player, although some have suggested I stick to watching rather than playing. I also enjoy soccer and boxing and am trying to get a better feel for baseball, so any advice in that regard besides on-base percentage would be great. </p>
-                </div>
-                <div id="pro_pic" class="container col-md-5">
-                    <img class="img-fluid col"  src="img/profile/home2.jpg">
-                </div>
+            <button type="button" class="btn btn-outline-light" data-toggle="collapse" data-target="#bio_row"><h2>ABOUT ME</h2></button>
+            <div id="bio_row" class="collapse show mt-2">
+              <div class="row">
+                  <div id="bio_text" class="container col-md-7">
+                      <p class="text-justify font-large">My name is Julian Silerio, and I'm currently a senior undergrad at the School of Engineering and Applied Sciences at Columbia University. I will be graduating in December 2018 with a bachelor's in computer science and a minor in German. </p>
+                      <p class="text-justify font-large">Throughout my studies I found myself especially interested in machine learning and artificial intelligence, although I will be graduating in the applications track within the computer science department. I've also recently become fascinated with the world of cryptocurrency, but, like most people, I'm still working to get a better grasp on it. I plan to start my professional career soon after graduation, but I hope to return to school one day and pursue my interests further in machine learning and data science.</p>
+                      <p class="text-justify">Besides long walks on the beach, I like to watch and play sports in my spare time. I'm an avid basketball fan and player, although some have suggested I stick to watching rather than playing. I also enjoy soccer and boxing and am trying to get a better feel for baseball, so any advice in that regard besides on-base percentage would be great. </p>
+                  </div>
+                  <div id="pro_pic" class="container col-md-5">
+                      <img class="img-fluid col"  src="img/profile/home2.jpg">
+                  </div>
+              </div>
             </div>
         </div>
 
+
         <div id="school" class="container mb-2">
-            <h2>EDUCATION</h2>
-            <div class="card-deck">
-                <div class="card bg-transparent mx-auto">
-                    <img class="card-img-top" src="img/school/columbia_small.png" alt="Columbia logo">
-                    <div class="card-body">
-                        <h5 class="card-title">Columbia University</h5>
-                        <p class="card-subtitle text-muted mb-1">New York City, NY<br/>2014 - 2018</p>
-                        <p class="card-text">B.S. in computer science.<br/>Minor in Germanic culture and language.</p>
-                    </div>
-                </div>
-                <div class="card bg-transparent mx-auto">
-                    <img id="loyola" class="card-img-top" src="img/school/loyola.png" alt="Loyola logo">
-                    <div class="card-body">
-                        <h5 class="card-title">Loyola High School</h5>
-                        <p class="card-subtitle text-muted mb-1">Los Angeles, CA<br/>2010 - 2014</p>
-                        <p class="card-text">High school diploma.<br/>Graduated <em>summa cum laude</em>.</p>
-                    </div>
-                </div>
+            <button type="button" class="btn btn-outline-light" data-toggle="collapse" data-target="#school_table"><h2>EDUCATION</h2></button>
+            <div id = "school_table" class="collapse show">
+              <div class="card-deck">
+                  <div class="card bg-transparent mx-auto">
+                      <img class="card-img-top" src="img/school/columbia_small.png" alt="Columbia logo">
+                      <div class="card-body">
+                          <h5 class="card-title">Columbia University</h5>
+                          <p class="card-subtitle text-muted mb-1">New York City, NY<br/>2014 - 2018</p>
+                          <p class="card-text">B.S. in computer science.<br/>Minor in Germanic culture and language.</p>
+                      </div>
+                  </div>
+                  <div class="card bg-transparent mx-auto">
+                      <img id="loyola" class="card-img-top" src="img/school/loyola.png" alt="Loyola logo">
+                      <div class="card-body">
+                          <h5 class="card-title">Loyola High School</h5>
+                          <p class="card-subtitle text-muted mb-1">Los Angeles, CA<br/>2010 - 2014</p>
+                          <p class="card-text">High school diploma.<br/>Graduated <em>summa cum laude</em>.</p>
+                      </div>
+                  </div>
+              </div>
             </div>
         </div>
 
         <div id="work" class="container mb-2">
-            <h2>WORK EXPERIENCE</h2>
-            <div class="table-responsive-md">
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th class="w-20">Company</th>
-                        <th class="w-20">Role</th>
-                        <th class="w-10">Duration</th>
-                        <th class="w-50 d-none d-sm-table-cell"> Description</th>
-                    </tr>
-                </thead>
-                <tbody id='table-body'>
+          <button type="button" class="btn btn-outline-light" data-toggle="collapse" data-target="#work_table"><h2>WORK EXPERIENCE</h2></button>
+            <div id="work_table" class="collapse show mt-2">
+              <div class="table-responsive-md">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="w-20">Company</th>
+                            <th class="w-20">Role</th>
+                            <th class="w-10">Duration</th>
+                            <th class="w-50 d-none d-sm-table-cell"> Description</th>
+                        </tr>
+                    </thead>
+                    <tbody id='table-body'>
 
-                </tbody>
-            </table>
+                    </tbody>
+                </table>
+              </div>
             </div>
         </div>
 
-        <div id="projects" class="container mb-3">
-            <h2 class="header">PROJECTS</h2>
-            <div id="projects-cards" class="card-columns">
+        <div id="projects" class="container mb-2">
+            <button type="button" class="btn btn-outline-light" data-toggle="collapse" data-target="#projects_table"><h2>PROJECTS</h2></button>
+            <div id="projects_table" class="collapse show mt-2">
+              <div id="projects-cards" class="card-columns">
+              </div>
             </div>
         </div>
 
-        <div id="skills" class="container mb-3">
-            <h2>SKILLS</h2>
+        <div id="skills" class="container mb-2">
+          <button type="button" class="btn btn-outline-light" data-toggle="collapse" data-target="#skills_table"><h2>SKILLS</h2></button>
+          <div id="skills_table" class="collapse show mt-2">
+
             <div id="skills-cards" class="card-columns">
             <!--load data in-->
             </div>
+          </div>
         </div>
 
         <div id="contact-info" class="container mb-5">
-            <h2>LINKS & CONTACT INFO</h2>
+          <button type="button" class="btn btn-outline-light mb-3"><h2>LINKS AND CONTACT INFO</h2></button>
+
             <div class="container text-center">
                 <a href="https://www.linkedin.com/in/julian-silerio-60076ab4/" title="LinkedIn">
                     <i class="fab fa-linkedin fa-4x mr-2"></i>
