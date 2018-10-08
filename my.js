@@ -148,12 +148,10 @@ $(document).ready(function() {
     loadCards(sorted_projects, '#projects-cards');
 
     $(window).scroll(function () {
-        checkNavbar(LOCATION + document.getElementById("nav_bar").height);
+        checkNavbar(LOCATION + 1);
     });
 
     if (window.matchMedia("(min-width: 481px)").matches) {
         document.getElementById("top").style.minHeight = LOCATION + "px";
     }
-
-    console.log(window.innerHeight);
 });
