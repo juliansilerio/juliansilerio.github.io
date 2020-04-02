@@ -1,9 +1,21 @@
 var skills = [
     {
+        "title" : "React.js",
+        "subtitle" : "<p>{props.helloWorld}</p>",
+        "text" : "Learned for the most part through work, although I had some experience with this framework during school. ",
+        "tags" : ["proficient", "work", "school"],
+    },
+    {
         "title" : "Python",
         "subtitle" : "My primary (and favorite) programming language.",
         "text" : "Learned through academic work and side projects. Relevant technologies include Flask, scikit-learn, numpy, keras with tensorflow, pytorch, pickle, io",
         "tags" : ["proficient", "personal", "school"],
+    },
+    {
+        "title" : "Sass",
+        "subtitle" : "$helloWorldColor: #000000;",
+        "text" : "Learned on the job, wish I'd learned it sooner. ",
+        "tags" : ["proficient", "work"],
     },
     {
         "title" : "php",
