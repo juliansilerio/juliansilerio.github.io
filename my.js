@@ -144,8 +144,10 @@ $(document).ready(function() {
     //sorted_skills = sortCards(skills);
     //loadCards(sorted_skills, '#skills-cards');
     loadCards(skills, '#skills-cards');
-    sorted_projects = sortCards(projects);
-    loadCards(sorted_projects, '#projects-cards');
+    // sorted_projects = sortCards(projects);
+    // loadCards(sorted_projects, '#projects-cards');
+
+    loadCards(projects, '#projects-cards');
 
     $(window).scroll(function () {
         checkNavbar(LOCATION + 1);

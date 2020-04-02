@@ -100,10 +100,22 @@ var skills = [
 
 var work = [
     {
+        "company" : "High 5 Games<br/>New York City, New York",
+        "role" : "Web developer",
+        "duration" : "Oct. 2019 -<br>April 2020",
+        "notes": "Collaborate with business, product, and game development teams to create web-based features and improvements utilizing React, Sass for video slot machine games. Manage implementation and deployment for business-to-business game content related to game marketing and player audience development. Participate in full development cycle with version control (git, perforce), code reviews, daily standups, and additional aspects of agile software cycle with other developers, project managers."
+    },
+    {
+        "company" : "FlexTrade Systems<br/>New York City, New York",
+        "role" : "Associate software developer",
+        "duration" : "Jan. 2019 -<br>Sep. 2019",
+        "notes": "Deploy, maintain, and debug highly configurable, cloud-based order-management system for small and large financial institutions on both Linux and Windows environments. Develop internal single-page web application in Python and React for real-time monitoring of client and broker connections as well as core system processes. Engage traders themselves to optimize system deployment and trading operations specifically utilizing C++ to build out custom functionality on client-by-client basis."
+    },
+    {
         "company" : "Columbia Business School<br/>New York City, New York",
-        "role" : "Lead software engineer",
-        "duration" : "Sep. 2018 -<br>present",
-        "notes": "Modernizing DEEP survey system for research in time- and risk-based decision making. Converting application from Ruby on Rails to PHP utilizing LAMP (Linux, Apache, MySQL, PHP) stack to update outdated technology of program and increase efficiency of survey system. Directing system architecture implementation using agile management to accommodate client’s needs and to expedite overall product development cycle"
+        "role" : "Software engineer (part-time)",
+        "duration" : "Sep. 2018 - <br>Jan. 2019",
+        "notes": "Modernize DEEP survey system for research in time- and risk-based decision making. Convert application from Ruby on Rails to PHP utilizing LAMP (Linux, Apache, MySQL, PHP) stack to update older technology of previous program and increase efficiency of survey system."
     },
     {
         "company" : "Columbia College Information Technology<br/>New York City, New York",
@@ -145,6 +157,14 @@ var work = [
 ];
 
 var projects = [
+    {
+        "title" : "Trade @ CU",
+        "text" : "Designed an intracollegiate trading system that allows students to exchange classes in a buy-sell environment similar to stock exchanges.",
+        "img" : "img/projects/trade-cu.png",
+        "link" : "https://github.com/juliansilerio/Trade-CU",
+        "footnote" : "Spring 2019",
+        "tags" : ["school"],
+    },
     {
         "title" : "MNIST Classifier",
         "text" : "A side project to keep my feet wet with machine learning, I developed a classifier for the MNIST handwritten digits dataset. I implemented an architecture based on VGG and achieved an accuracy of 89%.",

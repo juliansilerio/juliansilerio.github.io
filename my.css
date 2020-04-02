@@ -71,3 +71,7 @@ a:hover{
 .text-stroke-black {
     -webkit-text-stroke: 2px black;
 }
+
+#work .table {
+  color: white;
+}
