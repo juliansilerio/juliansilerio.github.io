@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div id='menu'>
+    </div>
+    <script src="vroom.json"></script>
+    <script type="text/javascript">
+        for(const entry of data) {
+            const newDiv = document.createElement('div');
+            const img = document.createElement('img');
+            img.src = entry[0];
+            const titlePrice = document.createTextNode(entry[1] + ' - ' + entry[2]);
+
+            newDiv.appendChild(img);
+            newDiv.appendChild(titlePrice);
+            document.getElementById('menu').appendChild(newDiv);
+        }
+    </script>
+</body>
+</html>
